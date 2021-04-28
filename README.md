@@ -7,5 +7,5 @@
 ### Development
 `$ py setup.py`
 
-### Maintnance
+### Maintenance
 Haha, none
