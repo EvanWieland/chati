@@ -7,5 +7,6 @@ dist/
 __pycache__/
 *.so
 *~
+*.html
 venv/
 .idea/
