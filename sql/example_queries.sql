@@ -1,7 +1,15 @@
+-- Get all posts a certain user liked on a certain day.
+SELECT *
+FROM POST
+WHERE PostID IN (SELECT DISTINCT PostID
+FROM LIKES
+WHERE UserID = 1 AND DateLiked LIKE '2019-09-14%')
+
+
 -- Get the hashtag text on every one of a particular user's posts with a hashtag.
 SELECT POST.UserID, HASHTAG.Hashtag
 FROM HASHTAG
-INNER JOIN POST ON HASHTAG.HashtagID = POST.HashtagID AND UserId = 1;
+JOIN POST ON HASHTAG.HashtagID = POST.HashtagID AND UserId = 1;
 
 
 -- Get the first user to join the platform.
@@ -16,9 +24,11 @@ FROM LIKES
 GROUP BY UserID;
 
 
--- Get all posts a certain user liked on a certain day.
-SELECT *
-FROM POST
-WHERE PostID IN (SELECT DISTINCT PostID
-FROM LIKES
-WHERE UserID = 1 AND DateLiked LIKE '2019-09-14%')
+-- Get the users following a particular user.
+SELECT UserID, Username
+FROM USER
+WHERE USER.UserID IN (SELECT FOLLOWING.UserID
+FROM USER
+JOIN FOLLOWING
+ON USER.UserID = FollowedUserID
+WHERE USER.UserID = 1);
