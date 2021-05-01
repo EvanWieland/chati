@@ -11,8 +11,7 @@ data_dir = '../data/reports'
 max_txt_len = 280  # 120
 hashtag_count = 30
 
-# Yeah, it's ugly, but it works. I don't really care if I can't understand it a year from now or
-# it takes an extra 10sec to crunch.
+# Yeah, it's ugly.
 
 def mung():
     idx = 0
