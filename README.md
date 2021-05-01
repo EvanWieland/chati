@@ -32,7 +32,7 @@ Located at [sql/db.sql](sql/db.sql)
 `$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/destroy.sql`
 
 ### Data
-Located at [data/sanatized/](data/sanatized/)
+Located at [data/sanatized/](data/sanitized/)
 
 ### Queries
 Located at [sql/example_queries.sql](sql/example_queries.sql)
