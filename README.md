@@ -7,7 +7,7 @@
 * Nick Albrecht
 
 ### SoW
-Located at [sow.pdf](soq.pdf)
+Located at [sow.pdf](sow.pdf)
 
 ### LDM
 ![ERD](LDM.png)
