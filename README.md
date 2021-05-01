@@ -23,13 +23,13 @@ Located at [sql/destroy.sql](sql/destroy.sql)
 Located at [sql/db.sql](sql/db.sql)
 
 #### Creating the DB WITH data
-`$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/db.sql`
+`$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/db.sql`
 
 #### Creating the DB WITHOUT data
-`$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/spawn.sql`
+`$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/spawn.sql`
 
 #### Destroying the DB
-`$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/destroy.sql`
+`$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/destroy.sql`
 
 ### Data
 Located at [data/sanitized/](data/sanitized/)
