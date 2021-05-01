@@ -7,20 +7,20 @@
 * Nick Albrecht
 
 ### SoW
-Located at `sow.pdf`
+Located at [sow.pdf](soq.pdf)
 
 ### LDM
 ![ERD](LDM.png)
 
 ### SQL
 ##### DDL for creating db & tables
-Located at `sql/spawn.pdf`
+Located at [sql/spawn.sql](sql/spawn.sql)
 
 ##### DDL for dropping db & tables
-Located at `sql/destroy.pdf`
+Located at [sql/destroy.sql](sql/destroy.sql)
 
 ##### DDL for creating db from backup
-Located at `sql/db.pdf`
+Located at [sql/db.sql](sql/db.sql)
 
 ##### Creating the DB WITH data
 `$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/db.sql`
@@ -32,7 +32,7 @@ Located at `sql/db.pdf`
 `$ mysql -u root -p < /<ABSOLUTE_PATH>/chati/sql/destroy.sql`
 
 ### Data
-Located at `data/sanatized/*.csv`
+Located at [data/sanatized/](data/sanatized/)
 
 ### Queries
-Located at `sql/example_queries.pdf`
+Located at [sql/example_queries.sql](sql/example_queries.sql)
