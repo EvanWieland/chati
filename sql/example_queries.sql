@@ -5,8 +5,8 @@ WHERE PostID IN (SELECT DISTINCT PostID
 FROM LIKES
 WHERE UserID = 1 AND DateLiked LIKE '2019-09-14%')
 
--- Find all users who follow user 1 but do not follow user 2.
 
+-- Find all users who follow user 1 but do not follow user 2.
 SELECT UserID, Username 
 FROM USER
 WHERE UserID IN(SELECT f.UserID
