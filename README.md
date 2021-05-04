@@ -25,11 +25,17 @@ Located at [sql/db.sql](sql/db.sql)
 #### Creating the DB WITH data
 `$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/db.sql`
 
+Or use `SOURCE` on the SQL file if a MySQL has already been started.
+
 #### Creating the DB WITHOUT data
 `$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/spawn.sql`
 
+Or use `SOURCE` on the SQL file if a MySQL has already been started.
+
 #### Destroying the DB
 `$ mysql -u username -p < /<ABSOLUTE_PATH>/chati/sql/destroy.sql`
+
+Or use `SOURCE` on the SQL file if a MySQL has already been started.
 
 ### Data
 Located at [data/sanitized/](data/sanitized/)
